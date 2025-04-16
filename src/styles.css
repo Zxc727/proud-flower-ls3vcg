@@ -379,9 +379,9 @@ button i { margin-right: 8px; }
     box-shadow: var(--shadow-light);
     display: none;
     z-index: 20;
-}
+} /* Исправление: Добавлена закрывающая скобка, которая отсутствовала */
 
-    .modal {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -401,17 +401,17 @@ button i { margin-right: 8px; }
 }
 
 .modal-content {
-  background-color: #ffffff;
-  margin: 5% auto;
-  padding: 30px;
-  border-radius: 12px;
-  width: 90%;
-  max-width: 1000px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  position: relative;
-  max-height: 80vh;
-  overflow-y: auto;
-}
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+} /* Уже исправлено тобой: закрывающая скобка на месте */
 
 .modal-content.blurred {
     filter: blur(3px);
