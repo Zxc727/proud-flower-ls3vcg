@@ -401,16 +401,16 @@ button i { margin-right: 8px; }
 }
 
 .modal-content {
-    background-color: #ffffff;
-    margin: 5% auto;
-    padding: 30px;
-    border-radius: 12px;
-    width: 90%;
-    max-width: 1000px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    position: relative;
-    max-height: 80vh;
-    overflow-y: auto;
+  background-color: #ffffff;
+  margin: 5% auto;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 .modal-content.blurred {
